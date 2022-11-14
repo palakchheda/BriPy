@@ -22,6 +22,7 @@ def plusOne(digits):
         print(i)
     return [int(i) for i in str(num+1)]
 
+
 if __name__ == '__main__':
     digits = [1, 3, 9]
     print(plusOne(digits))
