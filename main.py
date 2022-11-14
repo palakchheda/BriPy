@@ -12,8 +12,8 @@ Input: digits = [1,2,3]
 Output: [1,2,4]
 Explanation: The array represents the integer 123.
 Incrementing by one gives 123 + 1 = 124.
-Thus, the result should be [1,2,4].
-'''
+Thus, the result should be [1,2,4].'''
+
 
 def plusOne(digits):
     num = 0
@@ -24,5 +24,7 @@ def plusOne(digits):
 
 
 if __name__ == '__main__':
-    digits = [1, 3, 9]
-    print(plusOne(digits))
+    nu = [1, 3, 9]
+    print(plusOne(nu))
+    nums = [1, 2, 1, 2, 4]
+    print(2 * sum(set(nums)) - sum(nums))
